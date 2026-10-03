@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(189, 207, 219);
+}
+h1,h2{
+    text-align: center;
+    color:rgb(0, 0, 0)
+
+}
+form,table{
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: rgb(236, 237, 238);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+form input[type="text"],
+form input[type="number"] 
+{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3ae6dd;
+    border-radius: 4px;
+}
+form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(236, 237, 238);
+    color: #388083;
+    border: 3 px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+form button:hover {
+    background-color: #000000;
+    color: #fff;
+}
